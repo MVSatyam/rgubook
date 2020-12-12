@@ -1,0 +1,45 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.test:hover {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.active {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.popover-body {
+  overflow-y: auto;
+  height: 150px;
+}
+.notification-hover:hover {
+  background-color: #33b5e5;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1245px) {
+  .visibl {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .visibl {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .profile-card {
+    display: none;
+  }
+
+  .friends-card {
+    display: none;
+  }
+}
